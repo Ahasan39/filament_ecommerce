@@ -9,7 +9,7 @@ use Illuminate\Support\Number;
 
 class OrderStats extends BaseWidget
 {
-    protected function getViewData(): array
+    protected function getViewData(): array 
     {
         return array_merge(parent::getViewData(), [
             'isHorizontal' => true, // Set this to true to display stats in a single row
